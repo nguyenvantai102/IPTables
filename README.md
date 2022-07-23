@@ -2,6 +2,14 @@
 ## Mô hình triển khai
 ![Untitled](https://user-images.githubusercontent.com/83420725/139803255-2183677a-7616-449f-8c9c-3445198ac978.png)
 
+## Demo
+
+- Squid Proxy: https://www.youtube.com/watch?v=rQqNSkvLsTY&t=1s ​
+
+- IPtables Rules: https://www.youtube.com/watch?v=ycabV96YTGA&t=1s 
+
+## Triển khai 
+
 - Iptables là một ứng dụng firewall, được cài đặt mặc định trên hầu hết các phiên bản của các distro lõi Linux. Sau khi iptables được cài đặt mà chưa cấu hình, nó cũng mặc định cho phép tất cả các gói tin qua lại bình thường mà không cản trở gì cả.
 
 
@@ -23,6 +31,8 @@
 	- Liệt kê các rule có trong chain: IPtables -L
 	- Xóa các rule có trong chain (flush chain): IPtables -F
 	- Reset bộ đếm packet về 0: IPtables -Z
+
+
 
 - Các tùy chọn thao tác rule trong IPtables
 	- Thêm rule: -A (append)
